@@ -1,0 +1,164 @@
+body {
+    font-family: 'ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/47_-_black.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    color: rgb(203, 201, 201);
+    font-size: 2.5rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+header a .fa-linkedin, .fa-square-github{
+    margin-left: 2.5rem;
+    font-size: 3rem;
+}
+header a{
+    color: rgb(203, 201, 201);
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+}
+header i{
+    margin-right: 0.5rem;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 20rem; */
+    position: relative;
+}
+.hero img{
+    width: 25%;
+    /* height: 50%;
+    position: relative;
+    top: -4.8rem; */
+    position: absolute;
+        /* top: -40%; */
+        left: 50%;
+        transform: translate(-50%, -20%);
+  
+}
+.hero-text{
+    position: absolute;
+    top: 12rem;
+    text-align: center;
+}
+.hero h2{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: -1.5rem;
+    margin-top: 25%;
+}
+.hero h1{
+    font-size: 3rem;
+    color: rgb(203, 201, 201);
+}
+.hero nav ul li a{
+    text-decoration: none;
+    color: rgb(203, 201, 201);
+    margin-right: 2.5rem;
+    border: 2px solid rgb(203, 201, 201);
+    padding: 0.8rem 1.2rem;
+    border-radius: 5px;
+    font-weight: 550;
+}
+.hero nav ul li a:hover{
+    color: #000000;
+    background: rgb(203, 201, 201);
+    font-weight: 600;
+    border: 2px solid #000000;
+}
+.hero nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+
+/*styling for skills.html*/
+.container {
+    width: 50%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+.container h2{
+    font-size: 2rem;
+}
+.skill {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding: 2rem 0;
+}
+
+.skill img {
+    width: 50px;
+    margin-right: 10px;
+    
+}
+.bar {
+    width: 70%;
+    height: 25px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+}
+
+.progress {
+    height: 100%;
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+    width: 0;
+    transition: width 2s ease-in-out;
+   
+}
+
+span {
+    font-size: 16px;
+}
+
+@media (max-width:1024px){
+    .container{
+        width: 100%;
+    }
+
+    html{
+        font-size: 70%;
+    }
+    .hero{
+        position: relative;
+    }
+    .hero img{
+        width: 35%; 
+        top: 10rem;
+    }
+
+    .hero-text{
+        position: absolute;
+        top: 25rem;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        text-align: center;
+        width: 80%;
+    }
+}
