@@ -226,12 +226,10 @@ body a{
     margin-bottom: -0.5rem;
 }
 .btn1{
-   
-    /* background: #FFD700; */
     background: transparent;
     color: #FFD700;
     border: 1px solid #FFD700;
-    border-radius: 3px;
+    border-radius:0.2rem;
     padding: 0.5rem 1.5rem;
     font-size: 0.9rem;
     font-weight: 600;
