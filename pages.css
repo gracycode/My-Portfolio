@@ -11,11 +11,11 @@ body .home-icon{
 
 }
 body .home-icon-about{
-    float: right;
+    /* float: right; */
     font-size: 1.5rem;
     color: rgb(203, 201, 201);
-    margin-top: 2rem;
-    margin-right: 2rem;
+    /* margin-top: 4rem;
+    margin-right: 2rem; */
 }
 header {
     display: flex;
@@ -143,23 +143,22 @@ span {
 }
 
 /*styling for about.html*/
-.about-me{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 5rem auto;
-    align-items: center;
-    color: #F2F2F2;
-}
-.about-me-img img{
-    width: 25vw;
-    max-height: 60vh;
-    border-radius: 20px;
-    background-color: #F2F2F2
-}
 .about-text{
+    /* margin: 5rem; */
+    color: #F2F2F2;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 2rem 5rem;
     width: 60%;
+    margin: auto;
+    margin-bottom: 3rem;
 }
+
+
+
+/* .about-text{
+    width: 60%;
+} */
 
 /*styling for projects.html*/
 .home-icon-project{
